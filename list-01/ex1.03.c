@@ -1,7 +1,7 @@
 /*
     Nome: ex1.3.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Programa que imprime o desenho pedido quando executado.
+    DescriÃ§Ã£o: Programa que imprime o desenho pedido quando executado.
 */
 
 #include <stdio.h>
