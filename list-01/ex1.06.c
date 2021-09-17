@@ -1,7 +1,7 @@
 /*
     Nome: ex1.6.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Programa que recebe dois números inteiros e calcule o valor das quatro operações.
+    DescriÃ§Ã£o: Programa que recebe dois nÃºmeros inteiros e calcule o valor das quatro operaÃ§Ãµes.
 */
 
 #include <stdio.h>
@@ -9,7 +9,7 @@
 
 int main(){
 
-//Declaração das variáveis.
+//DeclaraÃ§Ã£o das variÃ¡veis.
     int numero1;
     int numero2;
     int adicao;
@@ -17,7 +17,7 @@ int main(){
     int multiplicacao;
     int divisao;
 
-//Recebendo os valores das variáveis numero1 e numero2.
+//Recebendo os valores das variÃ¡veis numero1 e numero2.
     printf("Primeiro numero: ");
     scanf("%d", &numero1);
 
@@ -30,7 +30,7 @@ int main(){
     multiplicacao = numero1 * numero2;
     divisao = numero1 / numero2;
 
-//Saída do programa.
+//SaÃ­da do programa.
     printf("%d + %d = %d\n", numero1, numero2, adicao);
     printf("%d - %d = %d\n", numero1, numero2, subtracao);
     printf("%d * %d = %d\n", numero1, numero2, multiplicacao);
