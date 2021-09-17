@@ -1,8 +1,8 @@
 /*
     Nome: ex1.9.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Programa que recebe o valor da base e altura de um triângulo,
-               e calcula a área desse triângulo.
+    DescriÃ§Ã£o: Programa que recebe o valor da base e altura de um triÃ¢ngulo,
+               e calcula a Ã¡rea desse triÃ¢ngulo.
 */
 
 #include <stdio.h>
@@ -10,12 +10,12 @@
 
 int main(){
 
-//Declaração das variáveis.
+//DeclaraÃ§Ã£o das variÃ¡veis.
     int baseDoTriangulo;
     int alturaDoTriangulo;
     int areaDoTriangulo;
 
-//Recebendo os valores das variáveis baseDoTriangulo e alturaDoTriangulo.
+//Recebendo os valores das variÃ¡veis baseDoTriangulo e alturaDoTriangulo.
     printf("Valor da base: ");
     scanf("%d", &baseDoTriangulo);
 
@@ -25,7 +25,7 @@ int main(){
 //Processamento do programa.
     areaDoTriangulo = (baseDoTriangulo*alturaDoTriangulo)/2;
 
-//Saída do programa.
+//SaÃ­da do programa.
     printf("Area = %d", areaDoTriangulo);
 
     return 0;
