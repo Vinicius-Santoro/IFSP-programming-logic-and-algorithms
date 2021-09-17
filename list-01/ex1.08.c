@@ -1,8 +1,8 @@
 /*
     Nome: ex1.8.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Programa que recebe o valor da largura e da altura de um retângulo,
-               e calcula a área e o perímetro deste retângulo.
+    DescriÃ§Ã£o: Programa que recebe o valor da largura e da altura de um retÃ¢ngulo,
+               e calcula a Ã¡rea e o perÃ­metro deste retÃ¢ngulo.
 */
 
 #include <stdio.h>
@@ -10,13 +10,13 @@
 
 int main(){
 
-//Declaração das variáveis.
+//DeclaraÃ§Ã£o das variÃ¡veis.
     int larguraDoRetangulo;
     int alturaDoRetangulo;
     int areaDoRetangulo;
     int perimetroDoRetangulo;
 
-//Recebendo os valores das variáveis larguraDoRetagulo e alturadoRetangulo.
+//Recebendo os valores das variÃ¡veis larguraDoRetagulo e alturadoRetangulo.
     printf("Valor do largura: ");
     scanf("%d", &larguraDoRetangulo);
 
@@ -27,7 +27,7 @@ int main(){
     perimetroDoRetangulo = (2*larguraDoRetangulo) + (2*alturaDoRetangulo);
     areaDoRetangulo = larguraDoRetangulo*alturaDoRetangulo;
 
-//Saída do programa.
+//SaÃ­da do programa.
     printf("Perimetro = %d\n", perimetroDoRetangulo);
     printf("Area = %d", areaDoRetangulo);
 
