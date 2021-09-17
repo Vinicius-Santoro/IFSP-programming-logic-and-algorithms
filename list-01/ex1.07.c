@@ -1,8 +1,8 @@
 /*
     Nome: ex1.7.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: Programa que recebe o valor inteiro de um lado de um quadrado e calcule o
-               perÌmetro e a ·rea deste quadrado.
+    Descri√ß√£o: Programa que recebe o valor inteiro de um lado de um quadrado e calcule o
+               per√≠metro e a √°rea deste quadrado.
 */
 
 #include <stdio.h>
@@ -10,7 +10,7 @@
 
 int main(){
 
-//DeclaraÁ„o das vari·veis.
+//Declara√ß√£o das vari√°veis.
     int ladoDoQuadrado;
     int areaDoQuadrado;
     int perimetroDoQuadrado;
@@ -23,7 +23,7 @@ int main(){
     areaDoQuadrado = ladoDoQuadrado * ladoDoQuadrado;
     perimetroDoQuadrado = 4 * ladoDoQuadrado;
 
-//SaÌda do programa.
+//Sa√≠da do programa.
     printf("Perimetro = %d\n", perimetroDoQuadrado);
     printf("Area = %d", areaDoQuadrado);
 
