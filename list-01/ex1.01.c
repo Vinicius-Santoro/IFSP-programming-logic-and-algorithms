@@ -1,7 +1,7 @@
 /*
     Nome: ex1.1.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Programa que imprime a mensagem "Ola Mundo!" quando executado.
+    DescriÃ§Ã£o: Programa que imprime a mensagem "Ola Mundo!" quando executado.
 */
 
 #include <stdio.h>
