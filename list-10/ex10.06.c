@@ -1,7 +1,7 @@
 /*
     Nome: ex.10.6.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 10, exercício 6.
+    DescriÃ§Ã£o: CapÃ­tulo 10, exercÃ­cio 6.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -35,7 +35,7 @@ int main() {
     auxMain = novaCor( corMain.vermelhoStruct, corMain.verdeStruct, corMain.azulStruct );
     imprimirCor( &auxMain );
 
-}//Fim da função main.
+}//Fim da funÃ§Ã£o main.
 
 Cor novaCor( int vermelho, int verde, int azul ) {
 
@@ -71,7 +71,7 @@ Cor novaCor( int vermelho, int verde, int azul ) {
 
     return aux;
 
-}//Fim da função novaCor
+}//Fim da funÃ§Ã£o novaCor
 
 void imprimirCor( const Cor *c ) {
 
