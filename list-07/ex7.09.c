@@ -1,7 +1,7 @@
 /*
     Nome: ex.7.9.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 7, exercício 9.
+    DescriÃ§Ã£o: CapÃ­tulo 7, exercÃ­cio 9.
 */
     #include<stdio.h>
     #include<stdlib.h>
@@ -38,19 +38,19 @@ int main() {
 
         int aux = tipoTriangulo ( triangulo1[i], triangulo2[i], triangulo3[i] );
 
-        if ( !aux ) {   //Se a função tipoTriangulo retornar 0.
+        if ( !aux ) {   //Se a funÃ§Ã£o tipoTriangulo retornar 0.
 
             printf( "Valores %d, %d e %d: nao formam um triangulo\n", triangulo1[i], triangulo2[i], triangulo3[i] );
 
-        } else if ( aux == 1 ) {    //Se a função tipoTriangulo retornar 1.
+        } else if ( aux == 1 ) {    //Se a funÃ§Ã£o tipoTriangulo retornar 1.
 
             printf( "Valores %d, %d e %d: triangulo equilatero\n", triangulo1[i], triangulo2[i], triangulo3[i] );
 
-        } else if ( aux == 2 ) {    //Se a função tipoTriangulo retornar 2.
+        } else if ( aux == 2 ) {    //Se a funÃ§Ã£o tipoTriangulo retornar 2.
 
              printf( "Valores %d, %d e %d: triangulo isosceles\n", triangulo1[i], triangulo2[i], triangulo3[i] );
 
-        }  else {   //Se a função tipoTriangulo retornar 3.
+        }  else {   //Se a funÃ§Ã£o tipoTriangulo retornar 3.
 
              printf( "Valores %d, %d e %d: triangulo escaleno\n", triangulo1[i], triangulo2[i], triangulo3[i] );
         }
@@ -90,29 +90,29 @@ int ehTriangulo( int ladoA, int ladoB, int ladoC ) {
         return 1;
     }
 
-}//Fim da função ehTriangulo.
+}//Fim da funÃ§Ã£o ehTriangulo.
 
 int tipoTriangulo( int ladoA, int ladoB, int ladoC ) {
 
     if ( ehTriangulo( ladoA, ladoB, ladoC ) == 0 ) {
 
-        return 0;   //Não forma um triângulo.
+        return 0;   //NÃ£o forma um triÃ¢ngulo.
 
     } else if ( ladoA == ladoB && ladoB  == ladoC ) {
 
-        return 1; //Triângulo equilátero.
+        return 1; //TriÃ¢ngulo equilÃ¡tero.
 
     } else if ( ladoA == ladoB ||
                 ladoA == ladoC ||
                 ladoB == ladoC ) {
 
-		return 2; //Triângulo isósceles.
+		return 2; //TriÃ¢ngulo isÃ³sceles.
 
 	} else {
 
-        return 3; //Triângulo escaleno.
+        return 3; //TriÃ¢ngulo escaleno.
 	}
 
-}//Fim da função tipoTriangulo.
+}//Fim da funÃ§Ã£o tipoTriangulo.
 
 
