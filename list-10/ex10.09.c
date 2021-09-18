@@ -1,7 +1,7 @@
 /*
     Nome: ex.10.9.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 10, exercício 9.
+    DescriÃ§Ã£o: CapÃ­tulo 10, exercÃ­cio 9.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -41,7 +41,7 @@ int main() {
     printf( "Cor escurecida:" );
     imprimirCor( &auxMain );
 
-}//Fim da função main.
+}//Fim da funÃ§Ã£o main.
 
 Cor novaCor( int vermelho, int verde, int azul ) {
 
@@ -77,13 +77,13 @@ Cor novaCor( int vermelho, int verde, int azul ) {
 
     return aux;
 
-}//Fim da função novaCor
+}//Fim da funÃ§Ã£o novaCor
 
 Cor escurecer ( const Cor *c ) {
 
     Cor auxEscurecer;
 
-    //Fazendo as três cores receberem elas mesmas * 0.7
+    //Fazendo as trÃªs cores receberem elas mesmas * 0.7
 
     auxEscurecer.vermelhoStruct = 0.7 * c->vermelhoStruct;
     auxEscurecer.verdeStruct = 0.7 * c->verdeStruct;
@@ -91,7 +91,7 @@ Cor escurecer ( const Cor *c ) {
 
     return auxEscurecer;
 
-}//Fim da função escurecer.
+}//Fim da funÃ§Ã£o escurecer.
 
 void imprimirCor( const Cor *c ) {
 
