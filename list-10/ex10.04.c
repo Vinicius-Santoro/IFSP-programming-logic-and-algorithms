@@ -1,7 +1,7 @@
 /*
     Nome: ex.10.4.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 10, exercício 4.
+    DescriÃ§Ã£o: CapÃ­tulo 10, exercÃ­cio 4.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -44,7 +44,7 @@ int main () {
 
     return 0;
 
-}//Fim da função main.
+}//Fim da funÃ§Ã£o main.
 
 Complexo somar( const Complexo *c1, const Complexo *c2 ) {
 
@@ -54,11 +54,11 @@ Complexo somar( const Complexo *c1, const Complexo *c2 ) {
 
     return aux;
 
-}//Fim da função somar imaginario.
+}//Fim da funÃ§Ã£o somar imaginario.
 
 void imprimirComplexo( const Complexo *c ) {
 
     printf( "(%.2f + %.2fi)", c->real, c->imaginario );
 
-}//Fim da função imprimirComplexo.
+}//Fim da funÃ§Ã£o imprimirComplexo.
 
