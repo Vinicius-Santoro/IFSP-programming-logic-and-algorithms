@@ -1,7 +1,7 @@
 /*
     Nome: ex.2.1.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Programa que exibe se o número fornecido é par ou ímpar.
+    DescriÃ§Ã£o: Programa que exibe se o nÃºmero fornecido Ã© par ou Ã­mpar.
 */
 
 #include <stdio.h>
