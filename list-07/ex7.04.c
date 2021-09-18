@@ -1,7 +1,7 @@
 /*
     Nome: ex.7.4.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 7, exercício 4.
+    DescriÃ§Ã£o: CapÃ­tulo 7, exercÃ­cio 4.
 */
 	#include<stdio.h>
 	#include<stdlib.h>
