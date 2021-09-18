@@ -1,7 +1,7 @@
 /*
     Nome: ex.2.9.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: CapÌtulo 2, exercÌcio 9.
+    Descri√ß√£o: Cap√≠tulo 2, exerc√≠cio 9.
 */
 
 #include <stdio.h>
@@ -9,11 +9,11 @@
 
 int main(){
 
-//DeclaraÁ„o das vari·veis.
+//Declara√ß√£o das vari√°veis.
 	int quantDeLados;
     float medidaDoLado;
    
-//Recebendo os valores do usu·rio. 
+//Recebendo os valores do usu√°rio. 
     printf("Entre com a quantidade de lados: ");
     scanf("%d", &quantDeLados);
     
