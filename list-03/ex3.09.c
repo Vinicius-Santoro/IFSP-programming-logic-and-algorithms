@@ -1,7 +1,7 @@
 /*
     Nome: ex.3.9.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: CapÌtulo 3, exercÌcio 9.
+    Descri√ß√£o: Cap√≠tulo 3, exerc√≠cio 9.
 */
 
 #include <stdio.h>
@@ -10,7 +10,7 @@
 int main(){	
 
 	int numero;
-	int i; //vari·vel contadora.
+	int i; //vari√°vel contadora.
 	
 	printf("Tabuada do Numero: ");
 	scanf("%d", &numero);
