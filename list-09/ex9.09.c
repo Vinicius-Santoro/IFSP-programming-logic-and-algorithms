@@ -1,7 +1,7 @@
 /*
     Nome: ex.9.9.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: CapÌtulo 9, exercÌcio 9.
+    Descri√ß√£o: Cap√≠tulo 9, exerc√≠cio 9.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -19,7 +19,7 @@ int main() {
 
     texto[strlen(texto)-1] = '\0';
 
-    inverter(inverso, texto);/*--> Quando for um array, na chamada eu n„o preciso de &. <--*/
+    inverter(inverso, texto);/*--> Quando for um array, na chamada eu n√£o preciso de &. <--*/
 
     printf( "Invertida: %s", inverso );
 
@@ -30,7 +30,7 @@ int main() {
 void inverter( char *destino, const char *origem ) {
 
     int j = 0;
-    for (int i = strlen(origem) - 1; i >= 0; i--)		//Esse -1 È para descontar o '/0'
+    for (int i = strlen(origem) - 1; i >= 0; i--)		//Esse -1 √© para descontar o '/0'
 	{
 		destino[j] = origem[i];
 		j++;
@@ -40,7 +40,7 @@ void inverter( char *destino, const char *origem ) {
 
 	return;
 
-}//Fim da funÁ„o inverter.
+}//Fim da fun√ß√£o inverter.
 
 
 
