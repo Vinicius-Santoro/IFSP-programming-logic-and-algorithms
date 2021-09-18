@@ -1,7 +1,7 @@
 /*
     Nome: ex.2.5.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Programa que exibe três números em ordem decrescente.
+    DescriÃ§Ã£o: Programa que exibe trÃªs nÃºmeros em ordem decrescente.
 */
 
 #include <stdio.h>
@@ -9,12 +9,12 @@
 
 int main(){
 
-//Declaração das variáveis.
+//DeclaraÃ§Ã£o das variÃ¡veis.
     int n1;
     int n2;
     int n3;
    
-//Recebendo os valores do usuário. 
+//Recebendo os valores do usuÃ¡rio. 
     printf("N1: ");
     scanf("%d", &n1);
     
