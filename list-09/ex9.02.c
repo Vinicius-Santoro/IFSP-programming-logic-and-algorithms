@@ -1,7 +1,7 @@
 /*
     Nome: ex.9.2.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: CapÌtulo 9, exercÌcio 2.
+    Descri√ß√£o: Cap√≠tulo 9, exerc√≠cio 2.
 */
     #include<stdio.h>
     #include<stdlib.h>
@@ -9,7 +9,7 @@
 
 int main(void) {
 
-    char t[41]; //vari·vel texto.
+    char t[41]; //vari√°vel texto.
     int numCaracteres = 0;
 
     printf( "Sentenca: " );
@@ -25,7 +25,7 @@ int main(void) {
 
    return 0;
 
-}//Fim da funÁ„o main.
+}//Fim da fun√ß√£o main.
 
 
 
