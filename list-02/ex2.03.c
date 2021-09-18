@@ -1,7 +1,7 @@
 /*
     Nome: ex.2.3.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: Programa que exibe dois n˙mero em ordem decrescente.
+    Descri√ß√£o: Programa que exibe dois n√∫mero em ordem decrescente.
 */
 
 #include <stdio.h>
@@ -9,11 +9,11 @@
 
 int main(){
 
-//DeclaraÁ„o das vari·veis.
+//Declara√ß√£o das vari√°veis.
     int numero1;
     int numero2;
    
-//Recebendo os valores do usu·rio. 
+//Recebendo os valores do usu√°rio. 
     printf("Entre com um numero: ");
     scanf("%d", &numero1);
     
