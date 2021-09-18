@@ -1,7 +1,7 @@
 /*
     Nome: ex.7.6.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 7, exercício 6.
+    DescriÃ§Ã£o: CapÃ­tulo 7, exercÃ­cio 6.
 */
     #include<stdio.h>
     #include<stdlib.h>
