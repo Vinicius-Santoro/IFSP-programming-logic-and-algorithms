@@ -1,7 +1,7 @@
 /*
     Nome: ex.3.7.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: CapÌtulo 3, exercÌcio 7.
+    Descri√ß√£o: Cap√≠tulo 3, exerc√≠cio 7.
 */
 
 #include <stdio.h>
@@ -10,7 +10,7 @@
 int main(){	
 
 	int numero;
-	int i; //vari·vel contadora.
+	int i; //vari√°vel contadora.
 	
 	printf("Forneca um numero menor ou igual a zero: ");
 	scanf("%d", &numero);
