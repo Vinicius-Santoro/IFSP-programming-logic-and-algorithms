@@ -1,7 +1,7 @@
 /*
     Nome: ex.9.8.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 9, exercício 8.
+    DescriÃ§Ã£o: CapÃ­tulo 9, exercÃ­cio 8.
 */
     #include <stdio.h>
     #include <stdlib.h>
