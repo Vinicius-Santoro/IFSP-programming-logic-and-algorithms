@@ -1,7 +1,7 @@
 /*
     Nome: ex.7.5.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 7, exercício 5.
+    DescriÃ§Ã£o: CapÃ­tulo 7, exercÃ­cio 5.
 */
     #include<stdio.h>
     #include<stdlib.h>
@@ -30,11 +30,11 @@ int main(){
 
             printf( "%d eh par e %d eh divisivel por %d\n", n1[i], n1[i], n2[i] );
 
-        } else if ( !ehPar( n1[i] ) && !ehDivisivel( n1[i], n2[i] ) ) {    /* Se Não && Não */
+        } else if ( !ehPar( n1[i] ) && !ehDivisivel( n1[i], n2[i] ) ) {    /* Se NÃ£o && NÃ£o */
 
             printf( "%d eh impar e %d nao eh divisivel por %d\n", n1[i], n1[i], n2[i] );
 
-        } else if ( !ehPar( n1[i] ) && ehDivisivel( n1[i], n2[i] )  ) {    /* Se Não && Sim */
+        } else if ( !ehPar( n1[i] ) && ehDivisivel( n1[i], n2[i] )  ) {    /* Se NÃ£o && Sim */
 
             printf( "%d eh impar e %d eh divisivel por %d\n", n1[i], n1[i], n2[i] );
         }
