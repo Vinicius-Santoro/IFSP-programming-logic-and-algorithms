@@ -1,7 +1,7 @@
 /*
     Nome: ex.10.7.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: CapÌtulo 10, exercÌcio 7.
+    Descri√ß√£o: Cap√≠tulo 10, exerc√≠cio 7.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -49,15 +49,15 @@ int main() {
     int getAzul( const Cor *c );
     void imprimirCor( const Cor *c );
 
-    Se os protÛtipos das funÁıes n„o fossem ponteiros, na chamada da funÁ„o n„o
-    eu n„o usaria " & ".
+    Se os prot√≥tipos das fun√ß√µes n√£o fossem ponteiros, na chamada da fun√ß√£o n√£o
+    eu n√£o usaria " & ".
 
     Lembrete: ponteiro [ -> ]
-              n„o ponteiro [ . ]
+              n√£o ponteiro [ . ]
 
     ***************************************************************************/
 
-}//Fim da funÁ„o main.
+}//Fim da fun√ß√£o main.
 
 Cor novaCor( int vermelho, int verde, int azul ) {
 
@@ -93,7 +93,7 @@ Cor novaCor( int vermelho, int verde, int azul ) {
 
     return aux;
 
-}//Fim da funÁ„o novaCor
+}//Fim da fun√ß√£o novaCor
 
 void imprimirCor( const Cor *c ) {
 
