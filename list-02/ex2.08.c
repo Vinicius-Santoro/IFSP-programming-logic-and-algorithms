@@ -1,7 +1,7 @@
 /*
     Nome: ex.2.8.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: CapÌtulo 2, exercÌcio 8.
+    Descri√ß√£o: Cap√≠tulo 2, exerc√≠cio 8.
 */
 
 #include <stdio.h>
@@ -9,12 +9,12 @@
 
 int main(){
 
-//DeclaraÁ„o das vari·veis.
+//Declara√ß√£o das vari√°veis.
     float n1;
     float n2;
     float n3;
    
-//Recebendo os valores do usu·rio. 
+//Recebendo os valores do usu√°rio. 
     printf("N1: ");
     scanf("%f", &n1);
     
