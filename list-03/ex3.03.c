@@ -1,7 +1,7 @@
 /*
     Nome: ex.3.3.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 3, exercício 3.
+    DescriÃ§Ã£o: CapÃ­tulo 3, exercÃ­cio 3.
 */
 
 #include <stdio.h>
