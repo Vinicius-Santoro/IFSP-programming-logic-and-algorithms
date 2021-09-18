@@ -1,7 +1,7 @@
 /*
     Nome: ex.10.8.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 10, exercício 8.
+    DescriÃ§Ã£o: CapÃ­tulo 10, exercÃ­cio 8.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -54,7 +54,7 @@ int main() {
 
     auxRgbAlterado = novaCor( auxRgbAlterado.vermelhoStruct, auxRgbAlterado.verdeStruct, auxRgbAlterado.azulStruct );
 
-    //Fazendo alteração da corMain utilizando os sets.
+    //Fazendo alteraÃ§Ã£o da corMain utilizando os sets.
     setVermelho( &corMain, corMain.vermelhoStruct );
     setVerde( &corMain, corMain.verdeStruct );
     setAzul( &corMain, corMain.azulStruct );
@@ -62,7 +62,7 @@ int main() {
     printf( "Cor alterada:" );
     imprimirCor( &auxRgbAlterado );
 
-}//Fim da função main.
+}//Fim da funÃ§Ã£o main.
 
 Cor novaCor( int vermelho, int verde, int azul ) {
 
@@ -98,26 +98,26 @@ Cor novaCor( int vermelho, int verde, int azul ) {
 
     return aux;
 
-}//Fim da função novaCor
+}//Fim da funÃ§Ã£o novaCor
 
 void setVermelho( Cor *c, int vermelho ) {
 
     c->vermelhoStruct = vermelho;
     //Meu membro "vermelho struct" recebe o inteiro.
 
-}//Fim da função setVermelho.
+}//Fim da funÃ§Ã£o setVermelho.
 
 void setVerde( Cor *c, int verde ) {
 
     c->verdeStruct = verde;
 
-}//Fim da função setVerde.
+}//Fim da funÃ§Ã£o setVerde.
 
 void setAzul( Cor *c, int azul ) {
 
     c->azulStruct = azul;
 
-}//Fim da função setAzul.
+}//Fim da funÃ§Ã£o setAzul.
 
 void imprimirCor( const Cor *c ) {
 
