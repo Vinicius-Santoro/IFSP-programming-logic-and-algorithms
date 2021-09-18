@@ -1,7 +1,7 @@
 /*
     Nome: ex.10.3.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 10, exercício 3.
+    DescriÃ§Ã£o: CapÃ­tulo 10, exercÃ­cio 3.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -30,7 +30,7 @@ int main() {
 
     return 0;
 
-}//Fim da função main.
+}//Fim da funÃ§Ã£o main.
 
 Hora gerarHora( int quantidadeSegundos ) {
 
@@ -42,10 +42,10 @@ Hora gerarHora( int quantidadeSegundos ) {
 
     return h;
 
-}//Fim da função gerarHora
+}//Fim da funÃ§Ã£o gerarHora
 
 void imprimirHora( const Hora *hora ) {
 
      printf( "Hora correspondente: %02d:%02d:%02d\n", hora->horas, hora->minutos, hora->segundos);
 
-}//Fim da função imprimirHora.
+}//Fim da funÃ§Ã£o imprimirHora.
