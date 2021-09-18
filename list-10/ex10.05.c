@@ -1,7 +1,7 @@
 /*
     Nome: ex.10.5.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 10, exercício 5.
+    DescriÃ§Ã£o: CapÃ­tulo 10, exercÃ­cio 5.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -25,7 +25,7 @@ int main () {
     Fracao n1;
     Fracao n2;
 
-    Fracao n1_Aux_n2;   //  Variável auxiliar para somar,
+    Fracao n1_Aux_n2;   //  VariÃ¡vel auxiliar para somar,
                         //subtrair, multiplicar e dividir n1 e n2
 
     printf( "Fracao 1\n" );
@@ -49,7 +49,7 @@ int main () {
 
     imprimirFracao(&n1_Aux_n2);
 
-    /*---------------SUBTRAÇÃO---------------*/
+    /*---------------SUBTRAÃ‡ÃƒO---------------*/
 
     printf( "%.2f/%.2f - %.2f/%.2f = ",
             n1.numerador, n1.denominador, n2.numerador, n2.denominador );
@@ -58,7 +58,7 @@ int main () {
 
     imprimirFracao(&n1_Aux_n2);
 
-    /*-------------MULTIPLICAÇÃO------------*/
+    /*-------------MULTIPLICAÃ‡ÃƒO------------*/
 
     printf( "%.2f/%.2f * %.2f/%.2f = ",
             n1.numerador, n1.denominador, n2.numerador, n2.denominador );
@@ -67,7 +67,7 @@ int main () {
 
     imprimirFracao(&n1_Aux_n2);
 
-    /*----------------DIVISÃO---------------*/
+    /*----------------DIVISÃƒO---------------*/
 
     printf( "%.2f/%.2f / %.2f/%.2f = ",
             n1.numerador, n1.denominador, n2.numerador, n2.denominador );
@@ -78,7 +78,7 @@ int main () {
 
     return 0;
 
-}//Fim da função main.
+}//Fim da funÃ§Ã£o main.
 
 Fracao somar( const Fracao *f1, const Fracao *f2 ) {
 
@@ -101,7 +101,7 @@ Fracao somar( const Fracao *f1, const Fracao *f2 ) {
         return soma2;
     }
 
-}//Fim da função somar.
+}//Fim da funÃ§Ã£o somar.
 
 Fracao subtrair( const Fracao *f1, const Fracao *f2 ) {
 
@@ -125,7 +125,7 @@ Fracao subtrair( const Fracao *f1, const Fracao *f2 ) {
         return subtracao2;
     }
 
-}//Fim da função subtrair.
+}//Fim da funÃ§Ã£o subtrair.
 
 Fracao multiplicar( const Fracao *f1, const Fracao *f2 ) {
 
@@ -136,7 +136,7 @@ Fracao multiplicar( const Fracao *f1, const Fracao *f2 ) {
 
     return multiplicacao1;
 
-}//Fim da função multiplicar.
+}//Fim da funÃ§Ã£o multiplicar.
 
 Fracao dividir( const Fracao *f1, const Fracao *f2 ) {
 
@@ -147,11 +147,11 @@ Fracao dividir( const Fracao *f1, const Fracao *f2 ) {
 
     return divisao1;
 
-}//Fim da função dividir.
+}//Fim da funÃ§Ã£o dividir.
 
 void imprimirFracao( const Fracao *f ) {
 
     printf( "%.2f/%.2f\n", f->numerador, f->denominador );
 
-}//Fim da função imprimirComplexo.
+}//Fim da funÃ§Ã£o imprimirComplexo.
 
