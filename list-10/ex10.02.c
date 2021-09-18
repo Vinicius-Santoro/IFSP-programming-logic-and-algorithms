@@ -1,7 +1,7 @@
 /*
     Nome: ex.10.2.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 10, exercício 2.
+    DescriÃ§Ã£o: CapÃ­tulo 10, exercÃ­cio 2.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -34,7 +34,7 @@ int main() {
 
     return 0;
 
-}//Fim da função main.
+}//Fim da funÃ§Ã£o main.
 
 int diaDoAno( const Data *data ) {
 
@@ -85,7 +85,7 @@ int diaDoAno( const Data *data ) {
 
     return dia;
 
-}//Fim da função diaDoAno.
+}//Fim da funÃ§Ã£o diaDoAno.
 
 bool ehBissexto( int ano ) {
 
@@ -98,4 +98,4 @@ bool ehBissexto( int ano ) {
         return 0;
     }
 
-}//Fim da função ehBissexto.
+}//Fim da funÃ§Ã£o ehBissexto.
