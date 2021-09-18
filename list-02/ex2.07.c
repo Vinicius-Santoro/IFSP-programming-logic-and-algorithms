@@ -1,7 +1,7 @@
 /*
     Nome: ex.2.7.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 2, exercício 7.
+    DescriÃ§Ã£o: CapÃ­tulo 2, exercÃ­cio 7.
 */
 
 #include <stdio.h>
@@ -9,11 +9,11 @@
 
 int main(){
 
-//Declaração das variáveis.
+//DeclaraÃ§Ã£o das variÃ¡veis.
     float numero1;
     float numero2;
    
-//Recebendo o número do usuário. 
+//Recebendo o nÃºmero do usuÃ¡rio. 
     printf("Entre com um numero: ");
     scanf("%f", &numero1);
     
@@ -21,7 +21,7 @@ int main(){
     scanf("%f", &numero2);
     
 
-//Início da estrutura condicional.
+//InÃ­cio da estrutura condicional.
 	if((numero1 + numero2) > 10){
 		printf("Os numeros fornecidos foram %.2f e %.2f", numero1, numero2);
 	}
