@@ -1,7 +1,7 @@
 /*
     Nome: ex.4.9.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 4, exercício 9.
+    DescriÃ§Ã£o: CapÃ­tulo 4, exercÃ­cio 9.
 */
 	#include<stdio.h>
 	#include<conio.h>
