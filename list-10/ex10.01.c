@@ -1,7 +1,7 @@
 /*
     Nome: ex.10.1.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Capítulo 10, exercício 1.
+    DescriÃ§Ã£o: CapÃ­tulo 10, exercÃ­cio 1.
 */
     #include <stdio.h>
     #include <stdlib.h>
@@ -60,7 +60,7 @@ int main() {
 
     return 0;
 
-}//Fim da função main.
+}//Fim da funÃ§Ã£o main.
 
 int compararData( const Data *d1, const Data *d2 ) {
 
@@ -80,11 +80,11 @@ int compararData( const Data *d1, const Data *d2 ) {
 
     return 0;
 
-}//Fim da função compararData.
+}//Fim da funÃ§Ã£o compararData.
 
 void imprimirData( const Data *data ) {
 
     printf( "%02d/%02d/%04d", data->dia, data->mes, (*data).ano );
     //pode ser assim: data->mes, ou assim: (*data).mes
 
-}//Fim da função imprimirData.
+}//Fim da funÃ§Ã£o imprimirData.
