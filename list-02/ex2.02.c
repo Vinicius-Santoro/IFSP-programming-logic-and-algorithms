@@ -1,7 +1,7 @@
 /*
     Nome: ex.2.1.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Programa que exibe dois número em ordem crescente.
+    DescriÃ§Ã£o: Programa que exibe dois nÃºmero em ordem crescente.
 */
 
 #include <stdio.h>
@@ -9,7 +9,7 @@
 
 int main(){
 
-//Declaração das variáveis.
+//DeclaraÃ§Ã£o das variÃ¡veis.
     int numero1;
     int numero2;
     
@@ -19,7 +19,7 @@ int main(){
     printf("Entre com outro numero: ");
     scanf("%d", &numero2);
 
-//Início da estrutura condicional.
+//InÃ­cio da estrutura condicional.
     if(numero1 >= numero2){
     	printf("Ordem crescente: %d <= %d", numero2, numero1);
 	}
