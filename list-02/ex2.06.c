@@ -1,8 +1,8 @@
 /*
     Nome: ex.2.6.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    Descrição: Programa que recebe um número decimal e se esse 
-	número for maior que 20, imprimir sua metade, caso contrário,
+    DescriÃ§Ã£o: Programa que recebe um nÃºmero decimal e se esse 
+	nÃºmero for maior que 20, imprimir sua metade, caso contrÃ¡rio,
 	imprimir seu triplo.
 */
 
@@ -11,14 +11,14 @@
 
 int main(){
 
-//Declaração das variáveis.
+//DeclaraÃ§Ã£o das variÃ¡veis.
     float numero;
    
-//Recebendo o número do usuário. 
+//Recebendo o nÃºmero do usuÃ¡rio. 
     printf("Entre com um valor: ");
     scanf("%f", &numero);
     
-//Início da estrutura condicional.
+//InÃ­cio da estrutura condicional.
 	if(numero > 20){
 		printf("A metade de %.2f e %.2f", numero, numero/2);
 	}
