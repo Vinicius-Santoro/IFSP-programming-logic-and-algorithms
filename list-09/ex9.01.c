@@ -1,7 +1,7 @@
 /*
     Nome: ex.9.1.c
     Autor: Vinicius Naziozeno Santoro do Rio.
-    DescriÁ„o: CapÌtulo 9, exercÌcio 1.
+    Descri√ß√£o: Cap√≠tulo 9, exerc√≠cio 1.
 */
     #include<stdio.h>
     #include<stdlib.h>
@@ -9,7 +9,7 @@
 
 int main(void) {
 
-    char t[41]; //vari·vel texto.
+    char t[41]; //vari√°vel texto.
 
     printf( "String: " );
     fgets( t, 41, stdin );
@@ -18,7 +18,7 @@ int main(void) {
 
     printf( "%c, %c, %c, %c.", t[0], t[1], t[2], t[3] );
 
-}//Fim da funÁ„o main.
+}//Fim da fun√ß√£o main.
 
 
 
