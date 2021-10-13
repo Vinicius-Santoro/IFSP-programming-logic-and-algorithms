@@ -16,31 +16,31 @@
 
 #### _Chapter exercises 2: `conditional structures`_
 
-- [`list-02`](libft-v2/ft_isalpha.c)
+- [`list-02`](list-02)
 
 #### _Chapter exercises 3: `repeat structures`_
 
-- [`list-03`](libft-v2/ft_isalpha.c)
+- [`list-03`](list-03)
 
 #### _Chapter exercises 4: `unidimensional arrays`_
 
-- [`list-04`](libft-v2/ft_isalpha.c)
+- [`list-04`](list-04)
 
 #### _Chapter exercises 5: `multidimensionais arrays`_
 
-- [`list-05`](libft-v2/ft_isalpha.c)
+- [`list-05`](list-05)
 
 #### _Chapter exercises 6: `standard mathematical library`_
 
-- [`list-06`](libft-v2/ft_isalpha.c)
+- [`list-06`](list-06)
 
 #### _Chapter exercises 7: `functions`_
 
-- [`list-07`](libft-v2/ft_isalpha.c)
+- [`list-07`](list-07)
 
 #### _Chapter exercises 8: `pointers`_
 
-- [`list-08`](libft-v2/ft_isalpha.c)
+- [`list-08`](list-08)
 
 #### _Chapter exercises 9: `characters and strings`_
-- [`list-09`](libft-v2/ft_isalpha.c)
+- [`list-09`](list-09)
