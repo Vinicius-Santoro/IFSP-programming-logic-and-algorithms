@@ -12,7 +12,7 @@
 
 #### _Chapter exercises 1: `standard input and output formatted`_
 
-- [`list-01`](IFSP-programming-logic-and-algorithms/list-01/)
+- [`list-01`](list-01)
 
 #### _Chapter exercises 2: `conditional structures`_
 
