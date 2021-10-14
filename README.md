@@ -8,7 +8,7 @@
 <!--
 - Dentro de cada arquivo de "lista" há um pdf explicando o que esperar de cada código.
 -->
-## _Exercises made in this project:_
+## _Exercises made in this repository:_
 
 - Chapter exercises 01: [`standard input and output formatted`](list-01)
 - Chapter exercises 02: [`conditional structures`](list-02)
