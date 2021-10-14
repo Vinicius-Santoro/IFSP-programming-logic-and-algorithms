@@ -10,32 +10,13 @@
 -->
 ## _Exercises made in this project:_
 
-#### _Chapter exercises 1: `standard input and output formatted`_
-- [`list-01`](list-01)
-
-#### _Chapter exercises 2: `conditional structures`_
-- [`list-02`](list-02)
-
-#### _Chapter exercises 3: `repeat structures`_
-- [`list-03`](list-03)
-
-#### _Chapter exercises 4: `unidimensional arrays`_
-- [`list-04`](list-04)
-
-#### _Chapter exercises 5: `multidimensionais arrays`_
-- [`list-05`](list-05)
-
-#### _Chapter exercises 6: `standard mathematical library`_
-- [`list-06`](list-06)
-
-#### _Chapter exercises 7: `functions`_
-- [`list-07`](list-07)
-
-#### _Chapter exercises 8: `pointers`_
-- [`list-08`](list-08)
-
-#### _Chapter exercises 9: `characters and strings`_
-- [`list-09`](list-09)
-
-#### _Chapter exercises 10: `structs`_
-- [`list-10`](list-10)
+- Chapter exercises 01: [`standard input and output formatted`](list-01)
+- Chapter exercises 02: [`conditional structures`](list-02)
+- Chapter exercises 03: [`repeat structures`](list-03)
+- Chapter exercises 04: [`unidimensional arrays`](list-04)
+- Chapter exercises 05: [`multidimensionais arrays`](list-05)
+- Chapter exercises 06: [`standard mathematical library`](list-06)
+- Chapter exercises 07: [`functions`](list-07)
+- Chapter exercises 08: [`pointers`](list-08)
+- Chapter exercises 09: [`characters and strings`](list-09)
+- Chapter exercises 10: [`structs`](list-10)
